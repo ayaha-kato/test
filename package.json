@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass src/sass/style.scss assets/css/style.css --watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayaha-kato/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayaha-kato/test/issues"
+  },
+  "homepage": "https://github.com/ayaha-kato/test#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "sass": "^1.77.6"
+  },
+  "dependencies": {
+    "grunt-compile-handlebars": "^2.0.3",
+    "gulp-handlebars-all": "^0.1.1",
+    "gulp-html-minifier": "^0.1.8",
+    "htmlmin": "^0.0.7"
+  }
+}
